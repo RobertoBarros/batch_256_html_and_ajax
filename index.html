@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript 101</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <div class="container mt-5 mb-5">
+      <input type="text" id='algolia'>
+      <div>
+        <h1 id='result'></h1>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+
+      <div class="row mb-5 mt-3">
+        <div class="col-md-6 offset-md-3">
+          <form id='search' class='form-inline'>
+            <input type="text" id="movieName" class='form-control mr-2' placeholder="Find a movie">
+            <button class='btn btn-success'>Pesquisar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row" id="movies">
+      </div>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
